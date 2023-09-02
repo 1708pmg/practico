@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    background-color:rgb(77, 6, 77);
+    color:orange;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color:orange;
+    color:rgb(77, 6, 77);
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    text-align: center;
+}
+.ingreso {
+    color: yellow;
+
+}
+.nombreUsuario {
+    flex-direction: column;
+    position: relative;
+    border-color: yellow;
+    padding: 8px;
+    margin-bottom: 32px;
+}
+
+
+.button {
+    border-color: red;
+    background-color:gold;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.aviso {
+        color: rgb(235, 216, 46);
+        font-size: 25px;
+        text-shadow: 2px 2px 5px red
+}
+
+.instrucciones {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 32px;
+    color: cyan;
+}
+
+.marcador {
+    background-color:yellow;
+    padding: 16px 32px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color:rgb(77, 6, 77);
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.marcador .nombre {
+    position: absolute;
+    color: orange;
+    background-color: rgb(77, 6, 77);
+    line-height: 1;
+    padding: 32px;
+    border: 2px solid yellow;
+
+}
+
+.marcador .nombre-jugador {
+    right: 85%;
+}
+
+.marcador .nombre-computadora {
+    left: 85%;
+}
+
+.marcador .puntos {
+    font-size: 30px;
+}
+
+.elige-juego {
+    margin-bottom: 32px;
+}
+
+.elige-juego h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.juegos {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.juego {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 100px;
+    height: 100px;
+    background-color:beige;
+    border: 0;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.mensaje {
+    margin-bottom: 32px;
+    line-height: 1.8;
+}
+
+.mensaje .eleccion {
+    color: rgb(77, 6, 77);
+    background-color: yellow;
+    padding-inline: 4px;
+}
+
+.btn {
+    border: 0;
+    line-height: 1;
+    background-color:orange;
+    color:rgb(77, 6, 77);
+    font-size: 32px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.disabled {
+    display: none;
+}
